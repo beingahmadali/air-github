@@ -33,6 +33,10 @@ int main()
 
     int coin_1 = amount;
 
+    string name;
+    cout << "Enter your name: ";
+    cin >> name;
+
     cout << "Currency Note\t:\tNumber" << endl;
     cout << "500\t\t:\t" << note_500 << endl;
     cout << "100\t\t:\t" << note_100 << endl;
